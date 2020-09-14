@@ -1,10 +1,3 @@
-.bodybac{
-    background-image: url(./background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.808);
-    margin: 0;
-}
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
     1. لون الخلفيات
     2. الطول والعرض
@@ -15,94 +8,105 @@
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
+.bodybac {
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.808);
+  margin: 0;
+}
+.flexer {
+  display: flex;
+}
+
 /* -------------------------------------------------------- */
 /* ----------------------العنوان-------------------------- */
 /* -------------------------------------------------------- */
 
-
-
-
 /* قم بتغيير عرض الناف بار حسب الصورة  */
-.navbar{
-    padding: 0;
-    margin: 0;
-   
+.navbar {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.747);
+  width: 1200px;
 }
 
-.head-ul{
-    
+.head-ul {
+  display: flex;
+  padding-bottom: 20px;
 }
 
-
-.head-a{
-    text-decoration: none;
-    font-size: 20px;
+.head-a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
 }
-.title{
-    text-align: center;
-    margin: 0;
+.title {
+  text-align: center;
+  margin: 0;
+  color: white;
 }
 /* استعمل الهوامش او الحواشي لتعديل الشكل  */
-.head-li{
- 
-   
+.head-li {
+  list-style-type: none;
+  padding-left: 20px;
 }
-
-/* ---------------------------------------------------------- */
-
-
 
 /* ---------------------------------------------------------- */
 /* -----------------------المحتوى---------------------------- */
 /* ----------------------------------------------------------- */
 
 /* غير في العرض الخاص بالمينيو لجعلة اصغر حجما كالصورة */
-.menu{
-    display: block;
-    background-color: rgb(255, 255, 255);
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 20px;
-    padding-top: 30px;
-    height: 500px;
+.menu {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 30px;
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  margin: auto;
 }
-img{
-    width: 100px;
-    height: 100px;
-    margin-left: 100px;
-    border-radius: 20px;
+img {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  border-radius: 20px;
 }
 
-
-.menu-title{
-   display: block;
+.menu-title {
+  display: block;
 }
-/* -------------------------------------------------------------- */
-
+p {
+  text-align: center;
+}
 
 /* --------------------------------------------------------------
- /* ------------------------الشريط الجانبي----------------------*/ 
- /* ------------------------------------------------------------ */
+ /* ------------------------الشريط الجانبي----------------------*/
+/* ------------------------------------------------------------ */
 /*  200pxاجعل عرض الشريط   */
-.sidebar{
-
-
+.sidebar {
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.74);
+  border-radius: 20px;
 }
- .link{
-
-} 
-
-.side-ul{
-    margin-left:40px;
-    
+.side-a {
+  color: black;
+  text-decoration: none;
 }
-h2{
-    margin-left: 30px;
-}
-.side-li{
-    padding-top: 10px;
+a:hover {
+  color: gray;
 }
 
-
-
-
+.side-ul {
+  margin-left: 40px;
+}
+h2 {
+  margin-right: 25px;
+}
+.side-li {
+  padding-top: 10px;
+  list-style-type: none;
+}
