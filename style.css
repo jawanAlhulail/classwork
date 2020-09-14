@@ -15,9 +15,6 @@
   background-color: rgba(0, 0, 0, 0.808);
   margin: 0;
 }
-.flexer {
-  display: flex;
-}
 
 /* -------------------------------------------------------- */
 /* ----------------------العنوان-------------------------- */
@@ -27,29 +24,21 @@
 .navbar {
   padding: 0;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.747);
-  width: 1200px;
 }
 
 .head-ul {
-  display: flex;
-  padding-bottom: 20px;
 }
 
 .head-a {
   text-decoration: none;
   font-size: 20px;
-  color: white;
 }
 .title {
   text-align: center;
   margin: 0;
-  color: white;
 }
 /* استعمل الهوامش او الحواشي لتعديل الشكل  */
 .head-li {
-  list-style-type: none;
-  padding-left: 20px;
 }
 
 /* ---------------------------------------------------------- */
@@ -65,9 +54,6 @@
   padding-right: 20px;
   padding-top: 30px;
   height: 500px;
-  width: 500px;
-  border-radius: 20px;
-  margin: auto;
 }
 img {
   width: 100px;
@@ -78,9 +64,6 @@ img {
 
 .menu-title {
   display: block;
-}
-p {
-  text-align: center;
 }
 
 /* --------------------------------------------------------------
@@ -93,11 +76,6 @@ p {
   border-radius: 20px;
 }
 .side-a {
-  color: black;
-  text-decoration: none;
-}
-a:hover {
-  color: gray;
 }
 
 .side-ul {
@@ -107,6 +85,4 @@ h2 {
   margin-right: 25px;
 }
 .side-li {
-  padding-top: 10px;
-  list-style-type: none;
 }
